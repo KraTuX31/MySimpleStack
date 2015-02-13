@@ -38,7 +38,7 @@
   <reporting>
     <plugins>
       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
+        <groupId>org.apache.maven.plugins</groupId>git remote add origin git@github.com:KraTuX3I1/MySimpleStack.git
         <artifactId>maven-jxr-plugin</artifactId>
         <version>2.5</version>
       </plugin>
