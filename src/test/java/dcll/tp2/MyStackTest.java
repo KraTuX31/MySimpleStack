@@ -2,6 +2,8 @@ package dcll.tp2;
 
 import junit.framework.TestCase;
 
+import java.util.ArrayList;
+
 public class MyStackTest extends TestCase {
 
     public void testIsEmpty() throws Exception {
@@ -33,5 +35,15 @@ public class MyStackTest extends TestCase {
         stack.push(new Item("item1"));
         stack.pop();
         assertEquals(stack.getSize(),0);
+    }
+
+    public void testItems() throws Exception {
+        MyStack stack = new MyStack();
+        ArrayList<Item>items;
+        items = new ArrayList<Item>();
+        items.add(new Item("item1"));
+        items.add(new Item("idem2"));
+        stack.pushItems(items);
+        assertEquals(stack.getSize(),2);
     }
 }
