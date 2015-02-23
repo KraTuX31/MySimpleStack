@@ -28,7 +28,7 @@ public class MyStack extends ArrayList<Item> implements SimpleStack {
         add(item);
     }
 
-    public void push(List<Item> items) {
+    public void pushItems(List<Item> items) {
         for(Item i: items) {
             push(i);
         }
