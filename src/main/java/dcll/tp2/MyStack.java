@@ -29,7 +29,7 @@ public class MyStack extends ArrayList<Item> implements SimpleStack {
     }
 
     public void push(List<Item> items) {
-        for(Item i: list) {
+        for(Item i: items) {
             push(i);
         }
     }
