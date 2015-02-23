@@ -52,4 +52,14 @@ public class MyStack extends ArrayList<Item> implements SimpleStack {
         remove(getSize()-1);
         return ret;
     }
+
+    public boolean contains(Item item) {
+        for(Item it : this) {
+            if (it.equals(item)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 }

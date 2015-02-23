@@ -28,4 +28,6 @@ public interface SimpleStack {
      * @throws EmptyStackException if this stack is empty.
      */
     public Item pop() throws EmptyStackException;
+
+
 }
